@@ -1,7 +1,7 @@
 {
   "name": "tarefas2",
   "version": "0.1.0",
-  "homepage": "https://gbrtorress.github.io/Projetos",
+  "homepage": "https://gbrtorress.github.io/todoreact",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
