@@ -7,7 +7,7 @@ import "./App.css";
 import Header from "./components/header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
-import TaskDetails from "./components/TaskDetails";
+// import TaskDetails from "./components/TaskDetails";
 
 const App = () => {
   const [tasks, setTasks] = useState([
@@ -71,7 +71,7 @@ const App = () => {
             </>
           )}
         />
-        <Route path="/:taskTitle" exact component={TaskDetails} />
+        {/* <Route path="/:taskTitle" exact component={TaskDetails} /> */}
       </div>
     </Router>
   );
