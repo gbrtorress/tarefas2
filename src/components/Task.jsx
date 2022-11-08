@@ -2,8 +2,6 @@ import React from "react";
 import { CgClose, CgInfo } from "react-icons/cg";
 import { useHistory } from "react-router-dom";
 
-
-
 import "./Task.css";
 
 const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
@@ -12,7 +10,7 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
   const handleTaskDetailsClick = () => {
     history.push(`/${task.title}`)
   }
- 
+
   return (
     <div
       className="task-container"
