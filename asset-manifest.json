@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tarefas2/static/css/main.5c97bfea.css",
-    "main.js": "/tarefas2/static/js/main.2f45397e.js",
+    "main.css": "/tarefas2/static/css/main.c35db9b2.css",
+    "main.js": "/tarefas2/static/js/main.65a5e754.js",
     "index.html": "/tarefas2/index.html",
-    "main.5c97bfea.css.map": "/tarefas2/static/css/main.5c97bfea.css.map",
-    "main.2f45397e.js.map": "/tarefas2/static/js/main.2f45397e.js.map"
+    "main.c35db9b2.css.map": "/tarefas2/static/css/main.c35db9b2.css.map",
+    "main.65a5e754.js.map": "/tarefas2/static/js/main.65a5e754.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c97bfea.css",
-    "static/js/main.2f45397e.js"
+    "static/css/main.c35db9b2.css",
+    "static/js/main.65a5e754.js"
   ]
 }
