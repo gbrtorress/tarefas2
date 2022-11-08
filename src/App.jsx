@@ -25,15 +25,19 @@ const App = () => {
   ]);
 
   useEffect(() => {
-    const fetchTasks = async () => {
-      const { data } = await axios.get(
-        "https://jsonplaceholder.cypress.io/todos?_limit=10"
-      );
+  localStorage.setItem(Tasks, JSON.stringify(tasks));
+}, [tasks])
 
-      setTasks(data);
-    };
-    fetchTasks();
-  }, []);
+  // useEffect(() => {
+  //   const fetchTasks = async () => {
+  //     const { data } = await axios.get(
+  //       "https://jsonplaceholder.cypress.io/todos?_limit=10"
+  //     );
+
+  //     setTasks(data);
+  //   };
+  //   fetchTasks();
+  // }, []);
 
   const handleTaskClick = (taskId) => {
     const newTasks = tasks.map((task) => {
